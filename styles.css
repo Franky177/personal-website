@@ -2,15 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -21,7 +17,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(68, 68, 68, 0.8); /* Semi-transparent background */
+    background-color: #444;
 }
 
 nav ul li {
@@ -41,10 +37,9 @@ nav ul li a:hover {
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    color: #333;
     padding: 20px;
     margin: 10px;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -69,10 +64,10 @@ img {
 }
 
 footer {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
-    color: white;
     text-align: center;
     padding: 10px;
+    background-color: #333;
+    color: white;
     position: fixed;
     width: 100%;
     bottom: 0;
