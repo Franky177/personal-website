@@ -44,6 +44,25 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+#about img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#projects img {
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -52,4 +71,22 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
